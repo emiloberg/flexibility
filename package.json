@@ -45,11 +45,12 @@
   "scripts": {
     "build": "node build.js",
     "prepublish": "npm run build",
-    "test": "eslint . && jscs ./lib/*.js",
+    "test": "eslint . && jscs ./lib/**/*.js ./lib/flexbox/**/*.js",
     "watch": "npm-watch"
   },
   "dependencies": {},
   "devDependencies": {
+    "ava": "^0.14.0",
     "eslint": "^1.10.3",
     "jscs": "^2.8.0",
     "npm-watch": "^0.1.1",

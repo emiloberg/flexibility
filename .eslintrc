@@ -6,6 +6,9 @@
 	"globals": {
 		"flexibility": true
 	},
+	"ecmaFeatures": {
+		"modules": true
+	},
 	"rules": {
 		"accessor-pairs": [2],
 		"block-scoped-var": [2],
@@ -17,7 +20,7 @@
 		"default-case": [2],
 		"eqeqeq": [2],
 		"func-style": [0],
-		"global-require": [2],
+		"global-require": [0],
 		"guard-for-in": [0],
 		"handle-callback-err": [2, "^err(or)?$"],
 		"id-length": [0],
@@ -78,7 +81,7 @@
 		"no-lone-blocks": [2],
 		"no-lonely-if": [2],
 		"no-loop-func": [2],
-		"no-magic-numbers": [2],
+		"no-magic-numbers": [0],
 		"no-mixed-requires": [0],
 		"no-multi-str": [2],
 		"no-native-reassign": [2],
